@@ -2,8 +2,8 @@
 
 In this repository I created a business card in HTML and CSS. You will find two versions of this business card: one made with Flexbox and the other with Grid.
 
-![Felxbox]()
-![Grid]()
+![Felxbox](captureFlex.png)
+![Grid](captureGrid.png)
 
 ---
 
