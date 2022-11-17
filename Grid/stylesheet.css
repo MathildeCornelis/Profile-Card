@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body{
+    font-family: 'Cabin', sans-serif;
+    background: linear-gradient(to right, #512159 50%, #e9e9e9 50%);
+}
+
+.titre{
+    font-weight: 800;
+    font-size: larger;
+}
+
+.grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 25%, 25%, 50%;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-top: 20%;
+}
+
+.one{
+    color: #e9e9e9;
+    grid-area: 3 / 1 / 4 / 2;
+    margin-left: 16%;
+    margin-bottom: 4%;
+}
+
+.two{
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+img{
+    box-shadow: 2px 1px  25px #000000; 
+}
+
+.three{
+    font-size: large;
+    grid-area: 2 / 3 / 3 / 4;
+    margin-right: 10%;
+}
+
+.nom{
+    color: #512159;     
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.travail{
+    font-size: 25px;
+}
+
+.portfolio{
+    background-color: #512159;
+    color: #fbef98;
+    padding: 18px;
+    border-radius: 60px;
+    border: solid #fbef98;
+    font-size: 25px;
+}
+
+.portfolio:hover{
+    background-color:#fbef98;
+    color: #512159;
+    padding: 18px;
+    border-radius: 60px;
+    border: solid #512159;
+    font-size: 25px;
+}
+
+a{
+    color: #e9e9e9;
+}
+a:hover{
+    color: #fbef98;
+}
